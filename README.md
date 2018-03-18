@@ -6,12 +6,12 @@ The aim of this research work is to study the various factors which affects the 
 * Top 5 states are-
   1. Tamil Nadu
   2. Karnataka
-  3. Madhya Pradesh
+  3. Uttar Pradesh
   4. Rajasthan
-  5. Kerela
+  5. Maharashtra
 * The research work includes studying the 6 factors i.e. facilities,hospitality,food,cleanliness,conveyance,environment for the chosen states.
 * Relevant statements have been collected for Tamil Nadu and if a statement corresponding to a given factor is positive it's been assigned a value 1 otherwise 0.
-* A model(*Natural Language Processing*) has been trained which uses the *Naive Bayes Algorithm* on these statements which calssify a statement into a positive and a negstive statement for a given factor.  
+* A model(*Natural Language Processing*) has been trained which uses the *Naive Bayes Algorithm* on these statements which calssify a statement into a positive and a negative statement for a given factor.  
 * Certain keywords specific to specific factors have been collected from the above collected statements.
 * The Blogs have been scraped for Karnataka and Rajasthan from https://www.travelblog.org and were divided into statements.Now if any of the above collected keyword is present in any of these statements than those statements are singled out.
 * The above trained model has been used to classify the statements.
